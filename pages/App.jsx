@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import DisplayData from "../components/DisplayData";
 
 function App() {
+  const [update, setUpdate] = useState([]);
+
   const owned = [
     { title: "Book1", color: "green" },
     { title: "Book2", color: "green" },
@@ -52,6 +54,10 @@ function App() {
   function combineAndSearch() {
     //Your code goes here...
   }
+
+  useEffect(() => {
+    setUpdate(combined);
+  }, [combined]);
 
   return (
     <div>
