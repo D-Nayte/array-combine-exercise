@@ -47,10 +47,15 @@ function App() {
   //     { title: "Book7", color: "green" },
    ];*/
 
-  const combined = [];
+  let combined = [];
 
   function combineAndSearch() {
     //Your code goes here
+    combined = searched.map((searchedBook) => {
+      if (owned.find((ownedBook) => ownedBook.title === searchedBook.title))
+        searchedBook.color = "green";
+      return searchedBook;
+    });
   }
 
   combineAndSearch();
