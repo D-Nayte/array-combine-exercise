@@ -8,22 +8,12 @@ function App() {
     { title: "Book3", color: "green" },
     { title: "Book4", color: "green" },
     { title: "Book5", color: "green" },
-    { title: "Book6", color: "green" },
-    { title: "Book7", color: "green" },
-    { title: "Book8", color: "green" },
-    { title: "Book9", color: "green" },
   ];
 
   const searched = [
     { title: "Book10", color: "red" },
     { title: "Book20", color: "red" },
     { title: "Book30", color: "red" },
-    { title: "Book40", color: "red" },
-    { title: "Book50", color: "red" },
-    { title: "Book60", color: "red" },
-    { title: "Book70", color: "red" },
-    { title: "Book80", color: "red" },
-    { title: "Book90", color: "red" },
     { title: "Book3", color: "red" },
     { title: "Book7", color: "red" },
   ];
@@ -37,12 +27,6 @@ function App() {
   //     { title: "Book10", color: "red" },
   //     { title: "Book20", color: "red" },
   //     { title: "Book30", color: "red" },
-  //     { title: "Book40", color: "red" },
-  //     { title: "Book50", color: "red" },
-  //     { title: "Book60", color: "red" },
-  //     { title: "Book70", color: "red" },
-  //     { title: "Book80", color: "red" },
-  //     { title: "Book90", color: "red" },
   //     { title: "Book3", color: "green" },
   //     { title: "Book7", color: "green" },
    ];*/
