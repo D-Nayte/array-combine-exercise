@@ -34,7 +34,7 @@ function App() {
   let combined = [];
 
   function combineAndSearch() {
-    //Your code goes here
+    //Your code goes here!
     combined = searched.map((searchedBook) => {
       if (owned.find((ownedBook) => ownedBook.title === searchedBook.title)) {
         return { title: searchedBook.title, color: "green" };
