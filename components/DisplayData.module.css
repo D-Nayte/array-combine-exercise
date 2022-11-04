@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 10vh;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.cube {
+  border-radius: 1rem;
+  height: 100%;
+  width: 5%;
+  border: 2px solid black;
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+.heading {
+  flex-basis: 100%;
+  flex-grow: 2;
+  align-self: flex-start;
+  justify-self: center;
+}
