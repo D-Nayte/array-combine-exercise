@@ -7,7 +7,7 @@ function App() {
     { title: "Book2", color: "green" },
     { title: "Book3", color: "green" },
     { title: "Book4", color: "green" },
-    { title: "Book5", color: "green" },
+    { title: "Book7", color: "green" },
   ];
 
   const searched = [
@@ -36,8 +36,9 @@ function App() {
   function combineAndSearch() {
     //Your code goes here
     combined = searched.map((searchedBook) => {
-      if (owned.find((ownedBook) => ownedBook.title === searchedBook.title))
-        searchedBook.color = "green";
+      if (owned.find((ownedBook) => ownedBook.title === searchedBook.title)) {
+        return { title: searchedBook.title, color: "green" };
+      }
       return searchedBook;
     });
   }
