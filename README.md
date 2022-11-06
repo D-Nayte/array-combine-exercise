@@ -22,4 +22,4 @@ npm run start
 
 # Usage
 
-This Repo has two branches. You do the exercise on the **_"main"_** branch and on the **_"solution"_** branch you find a possible answer.
+This Repo has two branches. You do the exercise on the **_"main"_** branch and on the **_"solution"_** branch you find a possible answer. All your code goes only in **_"App.jsx"_**
